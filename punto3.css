@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(150deg, #0b990b, #000000);
+    height:100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #51ff6b;
+    border-radius: 10px ;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0  0  20px  0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0  40px;
+    box-sizing: border-box;
+
+}
+form.username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+
+}
+
+.auth-field input{
+    font-size: 16 px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: solid  rgba(0,0,0, 0.5);
+    background: rgba(0,0,0, 0.1);
+
+}
